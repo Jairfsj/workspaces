@@ -1,28 +1,27 @@
-. {
-  margin: 0;
-  padding: 0;
-}
-
-a{
-  color: #fff;
-  tex-decoration:none;
-}
-
-a:hover {
-  opacity: 0.7i
-}
-
-.logo {
-  font-size: 24px
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
+body {
+       padding: 0;
+       margin: 0;
+     }
 
 nav {
-  display: flex;
-  jutify-content: space-around;
-  align-items: center;
-  font-family: system-ui,-apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
-  height: 8vh;
-}
+      width: 100%;
+      display: flex;
+      position: fixed;
+      background-color: #00ff;
+      z-index: 99;
+    }
+
+nav a {
+        color: #fff;
+        margin: auto 20px auto 40px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+nav li {
+        float: left;
+        list-style: none;
+        margin-left: 20px;
+      } 
+
+
